@@ -24,15 +24,20 @@ logo {
 information {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     width: 100%;
     padding: 32px 0;
+    height: auto;
 
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 65%;
     height: 100%;
+    padding-right: 24px;
 }
 
 .info div {
@@ -41,8 +46,51 @@ information {
 }
 
 information event {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 45%;
     height: 100%;
+    border: solid 1px gray;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+    padding: 32px 0px 32px 0px ;
+}
+
+.learning {
+    display: flex;
+    justify-content: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 32px 72px 0px 72px;
+    gap: 32px;
+}
+
+.learn {
+    background-color: white;
+    padding-bottom: 24px;
+    width: 30%;
+}
+
+.learn img {
+    width: 100%;
+    padding-bottom: 16px;
+    height: auto;
+}
+.learn p {
+    padding-top: 8px;
+}
+
+.learn div {
+    padding: 0px 16px;
+    text-align: left;
 }
 
 reunion {
@@ -51,16 +99,23 @@ reunion {
     width: 100%;
     height: auto;
     padding: 16px;
+    border: solid 1px gray;
 }
 
 reunion div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
     width: 65%;
     padding-left: 16px;
     gap: 8px;
+    height: auto;
 }
 
 reunion img {
     width: 35%;
+    height: auto;
 }
 
 .block {
@@ -82,4 +137,22 @@ reunion img {
     background-color: green;
     border: none;
     color: white;
+}
+
+.select {
+    background-color: gray;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
 }
