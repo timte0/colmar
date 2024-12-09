@@ -10,9 +10,22 @@ header {
     padding: 0px 24px;
     justify-content: space-between;
 }
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
 
-nav a {
+nav div a {
+    display: inline;
     padding-left: 16px;
+}
+nav div {
+    display: flex;
+    flex-direction: row;
+}
+
+nav div img {
+    display: none;
 }
 
 logo {
@@ -43,6 +56,7 @@ information {
 .info div {
     padding: 32px 0;
     gap: 24px;
+    text-align: left;
 }
 
 information event {
@@ -156,3 +170,31 @@ reunion img {
     width: 100%;
     height: auto;
 }
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: solid gray;
+    border-width: 1px 0px 0px 0px;
+    padding: 16px 14px;
+    color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+    nav div a {
+        display: none;
+    }
+    nav div img {
+        display: inline;
+    }
+    logo p {
+        display: none;
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+    }
+    .block img {
+        width: 100%;
+    }
+  }
