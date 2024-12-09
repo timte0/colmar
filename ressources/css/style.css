@@ -1,0 +1,85 @@
+body {
+    background-color: white;
+}
+
+
+header {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    padding: 0px 24px;
+    justify-content: space-between;
+}
+
+nav a {
+    padding-left: 16px;
+}
+
+logo {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+
+information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 32px 0;
+
+}
+
+.info {
+    width: 65%;
+    height: 100%;
+}
+
+.info div {
+    padding: 32px 0;
+    gap: 24px;
+}
+
+information event {
+    width: 45%;
+    height: 100%;
+}
+
+reunion {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 16px;
+}
+
+reunion div {
+    width: 65%;
+    padding-left: 16px;
+    gap: 8px;
+}
+
+reunion img {
+    width: 35%;
+}
+
+.block {
+    display: flex;
+    width: 100%;
+    padding: 32px 24px;
+    gap: 24px;
+    background-color: gainsboro;
+    align-items: center;
+}
+
+.block img {
+    width: 60%
+}
+
+.block button {
+    padding: 8px 0;
+    width: 100%;
+    background-color: green;
+    border: none;
+    color: white;
+}
